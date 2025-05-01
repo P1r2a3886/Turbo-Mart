@@ -1,0 +1,50 @@
+# Turbo Mart - POS System
+
+**Turbo Mart** is a Point of Sale (POS) system developed as part of a programming assignment. It is designed to handle basic operations for a retail store, including product management, billing, and administrative functionalities using a Windows Forms (WinForms) interface and a MySQL database backend.
+
+## 🚀 Features
+
+- User-friendly Windows Forms interface
+- Admin and cashier login
+- Product listing and inventory management
+- Billing and receipt generation
+- Sales report functionality
+- Icons for intuitive UI navigation
+- Integration with MySQL database using `MySql.Data.dll`
+
+## 🛠️ Installation
+
+1. **Clone or Download** this repository.
+2. Open the solution file `Programmingassignment.sln` in **Visual Studio**.
+3. Restore NuGet packages if required (especially `MySql.Data`).
+4. Set up your MySQL server and create a database with required tables.
+5. Update the database connection string in the code.
+6. Build and run the project.
+
+## 🧑‍💻 Usage
+
+- Admin can:
+  - Add/edit/delete products
+  - View reports
+  - Manage users
+- Cashiers can:
+  - Process sales
+  - Generate receipts
+
+## 🧰 Technologies Used
+
+- **C#** - Windows Forms Application
+- **MySQL** - Backend database
+- **MySql.Data.dll** - .NET Connector for MySQL
+- **Visual Studio** - IDE
+- **Git** - Version control
+
+## 👨‍🎓 Authors
+
+- Prasuna Dhital
+
+> Originally created for the Level 4 Programming unit (Unit Number: H/618/7388).
+
+## 📄 License
+
+This project is for educational use only. No commercial use is permitted without prior consent.
